@@ -49,7 +49,7 @@ def sniffPackage(packagepath:str, patterns:list):
 
 
 if __name__ == "__main__":
-    print("Author: Jonathan Martini, 2020")
+    print("Author: Jonathan Martini 2020")
     print(" /$$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$")
     print("| $$__  $$ /$$__  $$| $$__  $$ /$$__  $$| $$__  $$|_  $$_/")
     print("| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$  | $$ ")
