@@ -25,7 +25,7 @@ def flagFileObject(fileobject: TextIOWrapper, filenamepath, patterns) -> list:
     File = {"File": filenamepath, "issues": []}
     for token in tokens:
         for pattern in patterns:
-            if re.search(pattern, tokens) != None:
+            if re.search(pattern, token) != None:
                 File["issues"].append({
                     "Pattern": pattern,
                     "Token": token
